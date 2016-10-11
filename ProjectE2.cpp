@@ -16,7 +16,7 @@ int main(){
 		
 
 		nxt = current + previous;	// next value in seq is produced
-		previous = current;	// current value will become previous value in the sequence 	
+		previous = current;	// the currenct value will become previous value in the sequence 	
 		current = nxt;		// the latest value in seq produced is given "current status"
 
 		if (current % 2 == 0){
