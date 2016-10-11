@@ -1,3 +1,6 @@
+/*By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
+find the sum of the even-valued terms.
+*/
 #include<iostream>
 using namespace std;
 
@@ -5,7 +8,7 @@ using namespace std;
 int main(){
 
 	int sum = 2; // sum is given intial even value of the fibonacci seqence. 
-	int nxt;
+	int nxt = 0;
 	int previous = 1;
 	int current = 2;
 
